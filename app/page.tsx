@@ -1,4 +1,5 @@
 import { ConnectButton } from "@rainbow-me/rainbowkit";
+import EnsLookup from "@/components/EnsLookup";
 
 export default function Home() {
   return (
@@ -7,6 +8,7 @@ export default function Home() {
         <h1 className="text-2xl font-bold">ensly</h1>
         <ConnectButton />
       </header>
+      <EnsLookup />
     </main>
   );
 }
